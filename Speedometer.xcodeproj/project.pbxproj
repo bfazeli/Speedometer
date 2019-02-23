@@ -14,6 +14,8 @@
 		7376908822211F41004252AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7376908622211F41004252AF /* LaunchScreen.storyboard */; };
 		7376909322211F42004252AF /* SpeedometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376909222211F42004252AF /* SpeedometerTests.swift */; };
 		7376909E22211F42004252AF /* SpeedometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376909D22211F42004252AF /* SpeedometerUITests.swift */; };
+		737690C0222122B9004252AF /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737690B5222122A6004252AF /* SwinjectStoryboard.framework */; };
+		737690C1222122B9004252AF /* SwinjectStoryboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 737690B5222122A6004252AF /* SwinjectStoryboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,70 @@
 			remoteGlobalIDString = 7376907922211F40004252AF;
 			remoteInfo = Speedometer;
 		};
+		737690B4222122A6004252AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 985904061CDB0AA700275E4A;
+			remoteInfo = "SwinjectStoryboard-iOS";
+		};
+		737690B6222122A6004252AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 985904101CDB0AA700275E4A;
+			remoteInfo = "SwinjectStoryboard-iOSTests";
+		};
+		737690B8222122A6004252AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98D562781CDB173500DECDC0;
+			remoteInfo = "SwinjectStoryboard-OSX";
+		};
+		737690BA222122A6004252AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98D562811CDB173500DECDC0;
+			remoteInfo = "SwinjectStoryboard-OSXTests";
+		};
+		737690BC222122A6004252AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98D562941CDB19AB00DECDC0;
+			remoteInfo = "SwinjectStoryboard-tvOS";
+		};
+		737690BE222122A6004252AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98D5629D1CDB19AB00DECDC0;
+			remoteInfo = "SwinjectStoryboard-tvOSTests";
+		};
+		737690C2222122B9004252AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 985904051CDB0AA700275E4A;
+			remoteInfo = "SwinjectStoryboard-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		737690C4222122B9004252AF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				737690C1222122B9004252AF /* SwinjectStoryboard.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7376907A22211F40004252AF /* Speedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +112,8 @@
 		7376909922211F42004252AF /* SpeedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7376909D22211F42004252AF /* SpeedometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerUITests.swift; sourceTree = "<group>"; };
 		7376909F22211F42004252AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwinjectStoryboard.xcodeproj; path = Carthage/Checkouts/SwinjectStoryboard/SwinjectStoryboard.xcodeproj; sourceTree = "<group>"; };
+		737690E122212343004252AF /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/Speedometer-estdrpiwruntqhckjacnaravngaf/Build/Products/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737690C0222122B9004252AF /* SwinjectStoryboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +145,12 @@
 		7376907122211F40004252AF = {
 			isa = PBXGroup;
 			children = (
+				737690E02221233C004252AF /* Frameworks */,
 				7376907C22211F40004252AF /* Speedometer */,
 				7376909122211F42004252AF /* SpeedometerTests */,
 				7376909C22211F42004252AF /* SpeedometerUITests */,
 				7376907B22211F40004252AF /* Products */,
+				737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +195,27 @@
 			path = SpeedometerUITests;
 			sourceTree = "<group>";
 		};
+		737690AC222122A6004252AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				737690B5222122A6004252AF /* SwinjectStoryboard.framework */,
+				737690B7222122A6004252AF /* SwinjectStoryboardTests.xctest */,
+				737690B9222122A6004252AF /* SwinjectStoryboard.framework */,
+				737690BB222122A6004252AF /* SwinjectStoryboardTests.xctest */,
+				737690BD222122A6004252AF /* SwinjectStoryboard.framework */,
+				737690BF222122A6004252AF /* SwinjectStoryboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737690E02221233C004252AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				737690E122212343004252AF /* Swinject.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +226,12 @@
 				7376907622211F40004252AF /* Sources */,
 				7376907722211F40004252AF /* Frameworks */,
 				7376907822211F40004252AF /* Resources */,
+				737690C4222122B9004252AF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				737690C3222122B9004252AF /* PBXTargetDependency */,
 			);
 			name = Speedometer;
 			productName = Speedometer;
@@ -215,6 +308,12 @@
 			mainGroup = 7376907122211F40004252AF;
 			productRefGroup = 7376907B22211F40004252AF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 737690AC222122A6004252AF /* Products */;
+					ProjectRef = 737690AB222122A6004252AF /* SwinjectStoryboard.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7376907922211F40004252AF /* Speedometer */,
@@ -223,6 +322,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		737690B5222122A6004252AF /* SwinjectStoryboard.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwinjectStoryboard.framework;
+			remoteRef = 737690B4222122A6004252AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		737690B7222122A6004252AF /* SwinjectStoryboardTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwinjectStoryboardTests.xctest;
+			remoteRef = 737690B6222122A6004252AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		737690B9222122A6004252AF /* SwinjectStoryboard.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwinjectStoryboard.framework;
+			remoteRef = 737690B8222122A6004252AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		737690BB222122A6004252AF /* SwinjectStoryboardTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwinjectStoryboardTests.xctest;
+			remoteRef = 737690BA222122A6004252AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		737690BD222122A6004252AF /* SwinjectStoryboard.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwinjectStoryboard.framework;
+			remoteRef = 737690BC222122A6004252AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		737690BF222122A6004252AF /* SwinjectStoryboardTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwinjectStoryboardTests.xctest;
+			remoteRef = 737690BE222122A6004252AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7376907822211F40004252AF /* Resources */ = {
@@ -289,6 +433,11 @@
 			isa = PBXTargetDependency;
 			target = 7376907922211F40004252AF /* Speedometer */;
 			targetProxy = 7376909A22211F42004252AF /* PBXContainerItemProxy */;
+		};
+		737690C3222122B9004252AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwinjectStoryboard-iOS";
+			targetProxy = 737690C2222122B9004252AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -431,6 +580,7 @@
 		737690A322211F42004252AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UXACY83E3F;
@@ -449,6 +599,7 @@
 		737690A422211F42004252AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UXACY83E3F;
